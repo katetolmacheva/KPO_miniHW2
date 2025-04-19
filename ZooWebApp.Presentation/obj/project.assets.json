@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "ZooWebApp.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ZooWebApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZooWebApp.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZooWebApp.Application.dll": {}
+        }
+      },
+      "ZooWebApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ZooWebApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZooWebApp.Domain.dll": {}
+        }
+      },
+      "ZooWebApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ZooWebApp.Application": "1.0.0",
+          "ZooWebApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZooWebApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZooWebApp.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZooWebApp.Application/1.0.0": {
+      "type": "project",
+      "path": "../ZooWebApp.Application/ZooWebApp.Application.csproj",
+      "msbuildProject": "../ZooWebApp.Application/ZooWebApp.Application.csproj"
+    },
+    "ZooWebApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ZooWebApp.Domain/ZooWebApp.Domain.csproj",
+      "msbuildProject": "../ZooWebApp.Domain/ZooWebApp.Domain.csproj"
+    },
+    "ZooWebApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ZooWebApp.Infrastructure/ZooWebApp.Infrastructure.csproj",
+      "msbuildProject": "../ZooWebApp.Infrastructure/ZooWebApp.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "ZooWebApp.Application >= 1.0.0",
+      "ZooWebApp.Domain >= 1.0.0",
+      "ZooWebApp.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tolka\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Presentation\\ZooWebApp.Presentation.csproj",
+      "projectName": "ZooWebApp.Presentation",
+      "projectPath": "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Presentation\\ZooWebApp.Presentation.csproj",
+      "packagesPath": "C:\\Users\\tolka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Presentation\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tolka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Application\\ZooWebApp.Application.csproj": {
+              "projectPath": "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Application\\ZooWebApp.Application.csproj"
+            },
+            "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Domain\\ZooWebApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Domain\\ZooWebApp.Domain.csproj"
+            },
+            "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Infrastructure\\ZooWebApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\tolka\\Downloads\\MiniHW-2\\ZooWebApp.Infrastructure\\ZooWebApp.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

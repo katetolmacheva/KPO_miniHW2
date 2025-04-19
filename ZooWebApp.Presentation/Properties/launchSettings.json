@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ZooWebApp.Presentation": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:2215;http://localhost:2216"
+    }
+  }
+}
